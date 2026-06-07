@@ -1,5 +1,4 @@
 services:
-  # KAFKA (bez Zookeepera - tryb KRaft)
   broker:
     image: confluentinc/cp-kafka:7.8.0
     hostname: broker
