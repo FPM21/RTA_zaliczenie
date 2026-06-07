@@ -46,10 +46,8 @@ def generate_train_event():
         'timestamp': datetime.now().isoformat(),
     }
 
-print("=" * 62)
 print("  PKP Monitor — producent opóźnień pociągów")
-print("  Topic: train_arrivals | Iteracje: 750 | Interwał: 1s")
-print("=" * 62)
+print("------------------------------------------"
 
 for i in range(750):
     event = generate_train_event()
